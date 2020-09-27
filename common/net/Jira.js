@@ -13,7 +13,7 @@ class Jira {
 
   async getMyself () {
     return this.fetch('getMyself',
-      { pathname: '/rest/api/latest/myself' }, {
+      { pathname: '/rest/api/2/myself' }, {
         method: 'GET',
       })
   }
